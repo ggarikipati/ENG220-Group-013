@@ -12,7 +12,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Title of the app
-st.title("CSV Data Visualization App")
+st.title("Health Data")
 
 # Load data directly from file
 data = pd.read_csv('./content/US_NM_35001.csv') 
