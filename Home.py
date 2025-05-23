@@ -15,5 +15,6 @@ st.markdown(
     
     Each page presents visualizations for a specific dataset such as:
     - US_NM_35001.csv
-    - US_TX_48029.csv
+    - US_TX_48029.csv 
+    """
 )
