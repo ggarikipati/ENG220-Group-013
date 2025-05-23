@@ -1,0 +1,30 @@
+import streamlit as st
+
+st.set_page_config(
+    page_title="CSV Visualization Dashboard Book",
+    page_icon="📊",
+    layout="wide",
+)
+
+st.title("📘 Welcome to the CSV Visualization Dashboard Book")
+st.markdown(
+    """
+    This application contains interactive dashboards for multiple datasets.
+
+    Use the **sidebar** to navigate between the available pages.
+    
+    Each page presents visualizations for a specific dataset such as:
+    - US_NM_35001.csv
+    - US_TX_48029.csv
+    - ... and more.
+
+    ---
+    ### Instructions:
+    1. Select a dataset page from the sidebar.
+    2. Choose X and Y columns to plot.
+    3. Select your desired graph type: Line, Bar, Scatter, or Pie.
+    4. Click "Plot Graph" to visualize.
+
+    > Tip: Pie charts work best with fewer than 10 unique categories.
+    """
+)
