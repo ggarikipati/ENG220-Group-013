@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title("Dataset 2 - US_TX_48029.csv")
 
-data = pd.read_csv("data/US_TX_48029.csv")
+data = pd.read_csv("./.csv Files/filtered_US_NM_County.csv")
 
 st.write("### Data Preview")
 st.dataframe(data)
