@@ -16,15 +16,4 @@ st.markdown(
     Each page presents visualizations for a specific dataset such as:
     - US_NM_35001.csv
     - US_TX_48029.csv
-    - ... and more.
-
-    ---
-    ### Instructions:
-    1. Select a dataset page from the sidebar.
-    2. Choose X and Y columns to plot.
-    3. Select your desired graph type: Line, Bar, Scatter, or Pie.
-    4. Click "Plot Graph" to visualize.
-
-    > Tip: Pie charts work best with fewer than 10 unique categories.
-    """
 )
