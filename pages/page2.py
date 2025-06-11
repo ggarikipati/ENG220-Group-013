@@ -1,14 +1,16 @@
+
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-st.title("Dataset 2 – US_TX_48029.csv")
+st.title("Dataset 2 - Filtered_US_NM_County.csv")
 
 # Resolve absolute file path
 current_dir = os.path.dirname(__file__)
 file_path = os.path.join(current_dir, "..", ".csv Files", "filtered_US_NM_County.csv")
-file_path = os.path.abspath(file_path)
+file_path = os.path.abspath(file_path)  # Convert to absolute path
 
 # Load dataset
 try:
@@ -16,6 +18,7 @@ try:
     st.write("### Data Preview")
     st.dataframe(data)
 
+    # Visualization logic
     columns = data.columns.tolist()
     x_column = st.selectbox("Select X-axis column", columns)
     y_column = st.selectbox("Select Y-axis column", columns)
