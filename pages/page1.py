@@ -10,7 +10,7 @@ current_dir = os.path.dirname(__file__)
 file_path = os.path.join(current_dir, "filtered_US_NM.csv")
 file_path = os.path.abspath(file_path)  # Convert to absolute path  # Move CSVs into a centralized 'data' folder
 
-data = pd.read_csv(file_path)
+
 st.write("### Data Preview")
 st.dataframe(data)
 
