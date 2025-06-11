@@ -7,7 +7,7 @@ st.title("Dataset 2 - US_TX_48029.csv")
 
 # Resolve absolute file path
 current_dir = os.path.dirname(__file__)
-file_path = os.path.join(current_dir, "ENG220-Group-013", ".csv Files", "filtered_US_NM_County.csv")
+file_path = os.path.join(current_dir, "filtered_US_NM_County.csv")
 file_path = os.path.abspath(file_path)  # Convert to absolute path
 
 # Load dataset
