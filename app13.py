@@ -10,4 +10,4 @@ This project presents interactive dashboards for two filtered county-level datas
 Use the options below to navigate to visualizations.
 """)
 
-st.info("To explore, go to: `ENG220-Group-013/pages/page1.py` or `page2.py` in the unified dashboard.")
+
