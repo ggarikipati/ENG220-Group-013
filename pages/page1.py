@@ -7,7 +7,7 @@ st.title("Dataset 1 – US_NM_35001.csv")
 
 # Load dataset using os.path for dashboard compatibility
 current_dir = os.path.dirname(__file__)
-file_path = os.path.join(current_dir, ".csv Files", "filtered_US_NM.csv")
+file_path = os.path.join(current_dir, "ENG220-Group-013", ".csv Files", "filtered_US_NM.csv")
 file_path = os.path.abspath(file_path)  # Convert to absolute path  # Move CSVs into a centralized 'data' folder
 
 data = pd.read_csv(file_path)
